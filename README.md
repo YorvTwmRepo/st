@@ -1,8 +1,5 @@
-# St (Suckless Terminal)
+# st siduck, but white gruvbox'ed
 
-## Xresources live-reload demo
-
-<img src="https://github.com/siduck/dotfiles/blob/all/rice%20flex/live-reloadXresources.gif"> <br><br>
 
 ## Dependencies
 
