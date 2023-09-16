@@ -7,7 +7,7 @@
  */
 static char *font = "JetBrainsMono Nerd Font :pixelsize=15:antialias=true:autohint=true";
 static char *font2[] = { "JetBrainsMono Nerd Font :pixelsize=15:antialias=true:autohint=true" };
-static int borderpx = 0;
+static int borderpx = 110;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -118,28 +118,28 @@ float alpha = 1.0;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-  "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+  "#f9f5d7", /* hard contrast: #1d2021 / soft contrast: #32302f */
   "#cc241d",
   "#98971a",
   "#d79921",
   "#458588",
   "#b16286",
   "#689d6a",
-  "#a89984",
+  "#7c6f64",
   "#928374",
-  "#fb4934",
-  "#b8bb26",
-  "#fabd2f",
-  "#83a598",
-  "#d3869b",
-  "#8ec07c",
-  "#ebdbb2",
+  "#9d0006",
+  "#79740e",
+  "#b57614",
+  "#076678",
+  "#8f3f71",
+  "#427b58",
+  "#3c3836",
   [255] = 0,
   /* more colors can be added after 255 to use with DefaultXX */
-  "#add8e6", /* 256 -> cursor */
+  "#3c3836", /* 256 -> cursor */
   "#555555", /* 257 -> rev cursor*/
-  "#282828", /* 258 -> bg */
-  "#ffffff", /* 259 -> fg */
+  "#fbf1c7", /* 258 -> bg */
+  "#3c3836", /* 259 -> fg */
 };
 
 
